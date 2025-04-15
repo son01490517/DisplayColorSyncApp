@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66237C212DAE5B2C00A52239 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66237C202DAE5B2C00A52239 /* AppDelegate.swift */; };
+		66237C232DAE5B2C00A52239 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66237C222DAE5B2C00A52239 /* ViewController.swift */; };
+		66237C252DAE5B2D00A52239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66237C242DAE5B2D00A52239 /* Assets.xcassets */; };
+		66237C302DAE5BB100A52239 /* DisplayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66237C2F2DAE5BB100A52239 /* DisplayManager.swift */; };
+		66237C322DAE5BD600A52239 /* DisplayMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66237C312DAE5BD600A52239 /* DisplayMonitor.swift */; };
+		66237C342DAE5BEF00A52239 /* ICCProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66237C332DAE5BEF00A52239 /* ICCProfileManager.swift */; };
+		667B9AB32DAE74E80001B676 /* ColorSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667B9AB22DAE74E80001B676 /* ColorSync.framework */; };
+		667B9AB52DAE75E60001B676 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667B9AB42DAE75E60001B676 /* IOKit.framework */; };
+		667B9AB72DAE75EE0001B676 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667B9AB62DAE75EE0001B676 /* CoreGraphics.framework */; };
+		667B9AB92DAE75F50001B676 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667B9AB82DAE75F50001B676 /* Foundation.framework */; };
+		66DFD25F2DAE9BC200DB1639 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DFD25E2DAE9BC200DB1639 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		66E1CD572DAEB77E00763D92 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		66237C1D2DAE5B2C00A52239 /* DisplayColorSyncApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisplayColorSyncApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66237C202DAE5B2C00A52239 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66237C222DAE5B2C00A52239 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66237C242DAE5B2D00A52239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66237C292DAE5B2D00A52239 /* DisplayColorSyncApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DisplayColorSyncApp.entitlements; sourceTree = "<group>"; };
+		66237C2F2DAE5BB100A52239 /* DisplayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayManager.swift; sourceTree = "<group>"; };
+		66237C312DAE5BD600A52239 /* DisplayMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMonitor.swift; sourceTree = "<group>"; };
+		66237C332DAE5BEF00A52239 /* ICCProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICCProfileManager.swift; sourceTree = "<group>"; };
+		667B9AB22DAE74E80001B676 /* ColorSync.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ColorSync.framework; path = System/Library/Frameworks/ColorSync.framework; sourceTree = SDKROOT; };
+		667B9AB42DAE75E60001B676 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		667B9AB62DAE75EE0001B676 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		667B9AB82DAE75F50001B676 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66DFD25E2DAE9BC200DB1639 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66237C1A2DAE5B2C00A52239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667B9AB72DAE75EE0001B676 /* CoreGraphics.framework in Frameworks */,
+				667B9AB32DAE74E80001B676 /* ColorSync.framework in Frameworks */,
+				667B9AB52DAE75E60001B676 /* IOKit.framework in Frameworks */,
+				667B9AB92DAE75F50001B676 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66237C142DAE5B2C00A52239 = {
+			isa = PBXGroup;
+			children = (
+				66237C1F2DAE5B2C00A52239 /* DisplayColorSyncApp */,
+				66237C1E2DAE5B2C00A52239 /* Products */,
+				667B9AB12DAE74E80001B676 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		66237C1E2DAE5B2C00A52239 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66237C1D2DAE5B2C00A52239 /* DisplayColorSyncApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66237C1F2DAE5B2C00A52239 /* DisplayColorSyncApp */ = {
+			isa = PBXGroup;
+			children = (
+				66237C202DAE5B2C00A52239 /* AppDelegate.swift */,
+				66237C222DAE5B2C00A52239 /* ViewController.swift */,
+				66237C242DAE5B2D00A52239 /* Assets.xcassets */,
+				66237C292DAE5B2D00A52239 /* DisplayColorSyncApp.entitlements */,
+				66237C2F2DAE5BB100A52239 /* DisplayManager.swift */,
+				66237C312DAE5BD600A52239 /* DisplayMonitor.swift */,
+				66237C332DAE5BEF00A52239 /* ICCProfileManager.swift */,
+				66DFD25E2DAE9BC200DB1639 /* main.swift */,
+			);
+			path = DisplayColorSyncApp;
+			sourceTree = "<group>";
+		};
+		667B9AB12DAE74E80001B676 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				667B9AB82DAE75F50001B676 /* Foundation.framework */,
+				667B9AB62DAE75EE0001B676 /* CoreGraphics.framework */,
+				667B9AB42DAE75E60001B676 /* IOKit.framework */,
+				667B9AB22DAE74E80001B676 /* ColorSync.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66237C1C2DAE5B2C00A52239 /* DisplayColorSyncApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66237C2C2DAE5B2D00A52239 /* Build configuration list for PBXNativeTarget "DisplayColorSyncApp" */;
+			buildPhases = (
+				66237C192DAE5B2C00A52239 /* Sources */,
+				66237C1A2DAE5B2C00A52239 /* Frameworks */,
+				66237C1B2DAE5B2C00A52239 /* Resources */,
+				66E1CD572DAEB77E00763D92 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DisplayColorSyncApp;
+			productName = DisplayColorSyncApp;
+			productReference = 66237C1D2DAE5B2C00A52239 /* DisplayColorSyncApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66237C152DAE5B2C00A52239 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					66237C1C2DAE5B2C00A52239 = {
+						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
+					};
+				};
+			};
+			buildConfigurationList = 66237C182DAE5B2C00A52239 /* Build configuration list for PBXProject "DisplayColorSyncApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66237C142DAE5B2C00A52239;
+			productRefGroup = 66237C1E2DAE5B2C00A52239 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66237C1C2DAE5B2C00A52239 /* DisplayColorSyncApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66237C1B2DAE5B2C00A52239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66237C252DAE5B2D00A52239 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66237C192DAE5B2C00A52239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66237C232DAE5B2C00A52239 /* ViewController.swift in Sources */,
+				66237C322DAE5BD600A52239 /* DisplayMonitor.swift in Sources */,
+				66DFD25F2DAE9BC200DB1639 /* main.swift in Sources */,
+				66237C302DAE5BB100A52239 /* DisplayManager.swift in Sources */,
+				66237C212DAE5B2C00A52239 /* AppDelegate.swift in Sources */,
+				66237C342DAE5BEF00A52239 /* ICCProfileManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		66237C2A2DAE5B2D00A52239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66237C2B2DAE5B2D00A52239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		66237C2D2DAE5B2D00A52239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DisplayColorSyncApp/DisplayColorSyncApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = /System/Library/PrivateFrameworks;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "/System/Library/PrivateFrameworks/MonitorPanel.framework/Headers\n";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSBackgroundOnly = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scn.DisplayColorSyncApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+			};
+			name = Debug;
+		};
+		66237C2E2DAE5B2D00A52239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DisplayColorSyncApp/DisplayColorSyncApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = /System/Library/PrivateFrameworks;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "/System/Library/PrivateFrameworks/MonitorPanel.framework/Headers\n";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSBackgroundOnly = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scn.DisplayColorSyncApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66237C182DAE5B2C00A52239 /* Build configuration list for PBXProject "DisplayColorSyncApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66237C2A2DAE5B2D00A52239 /* Debug */,
+				66237C2B2DAE5B2D00A52239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66237C2C2DAE5B2D00A52239 /* Build configuration list for PBXNativeTarget "DisplayColorSyncApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66237C2D2DAE5B2D00A52239 /* Debug */,
+				66237C2E2DAE5B2D00A52239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66237C152DAE5B2C00A52239 /* Project object */;
+}
