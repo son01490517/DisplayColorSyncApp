@@ -1,0 +1,18 @@
+{
+  "images" : [
+    {
+      "filename" : "StatusBarIconTemplate.png",
+      "idiom" : "mac",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "StatusBarIconTemplate.png",
+      "idiom" : "mac",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
