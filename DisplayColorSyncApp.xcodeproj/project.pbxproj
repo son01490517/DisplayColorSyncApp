@@ -13,6 +13,7 @@
 		66237C302DAE5BB100A52239 /* DisplayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66237C2F2DAE5BB100A52239 /* DisplayManager.swift */; };
 		66237C322DAE5BD600A52239 /* DisplayMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66237C312DAE5BD600A52239 /* DisplayMonitor.swift */; };
 		66237C342DAE5BEF00A52239 /* ICCProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66237C332DAE5BEF00A52239 /* ICCProfileManager.swift */; };
+		66237C352DAE5C00000A52239 /* ProcessMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66237C362DAE5C00000A52239 /* ProcessMonitor.swift */; };
 		667B9AB32DAE74E80001B676 /* ColorSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667B9AB22DAE74E80001B676 /* ColorSync.framework */; };
 		667B9AB52DAE75E60001B676 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667B9AB42DAE75E60001B676 /* IOKit.framework */; };
 		667B9AB72DAE75EE0001B676 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667B9AB62DAE75EE0001B676 /* CoreGraphics.framework */; };
@@ -42,6 +43,7 @@
 		66237C2F2DAE5BB100A52239 /* DisplayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayManager.swift; sourceTree = "<group>"; };
 		66237C312DAE5BD600A52239 /* DisplayMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMonitor.swift; sourceTree = "<group>"; };
 		66237C332DAE5BEF00A52239 /* ICCProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICCProfileManager.swift; sourceTree = "<group>"; };
+		66237C362DAE5C00000A52239 /* ProcessMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessMonitor.swift; sourceTree = "<group>"; };
 		667B9AB22DAE74E80001B676 /* ColorSync.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ColorSync.framework; path = System/Library/Frameworks/ColorSync.framework; sourceTree = SDKROOT; };
 		667B9AB42DAE75E60001B676 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		667B9AB62DAE75EE0001B676 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -91,6 +93,7 @@
 				66237C2F2DAE5BB100A52239 /* DisplayManager.swift */,
 				66237C312DAE5BD600A52239 /* DisplayMonitor.swift */,
 				66237C332DAE5BEF00A52239 /* ICCProfileManager.swift */,
+				66237C362DAE5C00000A52239 /* ProcessMonitor.swift */,
 				66DFD25E2DAE9BC200DB1639 /* main.swift */,
 			);
 			path = DisplayColorSyncApp;
@@ -184,6 +187,7 @@
 				66237C302DAE5BB100A52239 /* DisplayManager.swift in Sources */,
 				66237C212DAE5B2C00A52239 /* AppDelegate.swift in Sources */,
 				66237C342DAE5BEF00A52239 /* ICCProfileManager.swift in Sources */,
+				66237C352DAE5C00000A52239 /* ProcessMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +321,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = "/System/Library/PrivateFrameworks/MonitorPanel.framework/Headers\n";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				INFOPLIST_KEY_LSBackgroundOnly = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -353,7 +356,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = "/System/Library/PrivateFrameworks/MonitorPanel.framework/Headers\n";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				INFOPLIST_KEY_LSBackgroundOnly = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (

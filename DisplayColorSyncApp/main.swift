@@ -3,5 +3,8 @@ import Cocoa
 let app = NSApplication.shared
 let delegate = AppDelegate()
 app.delegate = delegate
-app.setActivationPolicy(.prohibited) // ✅ No dock icon (yet)
+// Start with accessory policy (no Dock icon)
+app.setActivationPolicy(.accessory)
+
+// Start the app
 app.run()
